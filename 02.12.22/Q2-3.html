@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     
+        const temperatura = 
+        {
+        stopnieC: 0,
+        stopnieF: function(){return(this.stopnieC*1.8+32)}
+        }
+        
+        
+        temperatura.stopnieC = Number(prompt("Podaj ile stopni Celsjusza: "));
+        document.write(temperatura.stopnieF())
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

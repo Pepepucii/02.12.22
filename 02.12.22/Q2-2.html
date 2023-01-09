@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+     
+        const waluta = 
+        {
+        pln: 0,
+        usd: function(){return(this.pln/4.45)}
+        }
+        
+        
+        waluta.pln = Number(prompt("Podaj ile mamony: "));
+        document.write(waluta.usd())
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
